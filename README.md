@@ -1,13 +1,13 @@
-# Autonomous Obstacle-Avoidance Car with GPS and RTOS Integration
+# Autonomous Obstacle-Avoidance Car with GPS and FreeRTOS Integration
 
 ## Project Overview
 
-This project aims to develop an advanced autonomous car capable of detecting obstacles using ultrasonic sensors, avoiding obstacles in real-time, and integrating GPS for navigation. Additionally, a Real-Time Operating System (RTOS) will be employed for efficient multitasking and control. The goal is to create a comprehensive autonomous system that can navigate through obstacles while following a designated path using GPS coordinates.
+This project aims to develop an advanced autonomous car capable of detecting obstacles using ultrasonic sensors, avoiding obstacles in real-time, integrating GPS for navigation, and utilizing the STM32F103C8 microcontroller along with the FreeRTOS operating system. The combination of these technologies will create a sophisticated autonomous system capable of navigating through obstacles while following a designated path using GPS coordinates.
 
 ## Objectives
 
 - Integrate a GPS module for accurate navigation and path following.
-- Implement an RTOS for efficient task management and control.
+- Implement FreeRTOS for efficient task management and control.
 - Enhance the obstacle detection and avoidance system using ultrasonic sensors.
 - Develop algorithms for seamless GPS navigation combined with obstacle avoidance.
 - Display real-time position and status on an LCD screen.
@@ -19,24 +19,25 @@ This project aims to develop an advanced autonomous car capable of detecting obs
 - Servo motor
 - L293D motor driver
 - GPS module
-- Microcontroller
+- STM32F103C8 microcontroller
+- FreeRTOS
 - LCD display
 - Chassis, motors, and caster wheel
 
 ## Project Structure
 
-- `hardware/`: Contains hardware-related documentation and diagrams.
-- `software/`: Includes source code for the project's software components.
-- `docs/`: Detailed project documentation, algorithms, and design decisions.
-- `tests/`: Test cases, results, and calibration information.
-- `presentation/`: Slides for project presentation.
-- `LICENSE`: Project licensing information.
+- `hardware/`: 
+- `software/`: 
+- `docs/`: 
+- `tests/`: 
+- `presentation/`: 
+- `LICENSE`: 
 
 ## Getting Started
 
 1. Clone this repository.
 2. Refer to the `hardware/` documentation for assembly instructions.
-3. Explore the `software/` folder for code and RTOS implementation.
+3. Explore the `software/` folder for code and FreeRTOS implementation.
 4. Review the `docs/` directory for detailed project information.
 5. Test the project following instructions in the `tests/` directory.
 
